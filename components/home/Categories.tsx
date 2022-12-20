@@ -15,13 +15,13 @@ const Categories = () => {
 
     <section className='my-5  ' >
 
-      <div  className='grid  grid-cols-4 sm:grid-cols-5 lg:grid-cols-7 xl:grid-cols-10  gap-3 '>
+      <div  className='grid  grid-cols-4 sm:grid-cols-5 lg:grid-cols-7 2xl:grid-cols-10  gap-3 '>
 
         {
           Object.values(Data).map((value, key) =>
 
 
-            <div   className='xl:w-[99px]' key={key}>
+            <div   className='2xl:w-[99px]' key={key}>
               <picture className='flex pt-3 pb-1  bg-gray-500 justify-center items-center'>
                 <Image src={Milk} alt={"Milkk"} width={65} height={65} loading='lazy' />
               </picture>
@@ -33,21 +33,7 @@ const Categories = () => {
           )
         }
 
-
-        {/* <>
-          <div>
-            <picture className='flex pt-3 pb-1  bg-gray-500 justify-center items-center'>
-              <Image src={Milk} alt={"Milkk"} width={50} height={50} />
-            </picture>
-            <p className='flex justify-center items-center my-1'>Milk</p>
-          </div>
-        </> */}
-
-
-
-
       </div>
-
 
     </section>
   )

@@ -12,7 +12,7 @@ const Navbar = () => {
 
         <>
 
-            <header className='sticky top-0'>
+            <header className='sticky top-0 z-50'>
                 <nav className="bg-gray-600 font-sans w-full m-0 ">
                     <div className="bg-white  lg:shadow-md ">
                         <div className="container  mx-auto px-3 md:px-12 lg:px-24 ">
@@ -84,7 +84,7 @@ const Navbar = () => {
                 </nav>
             </header>
 
-            <div className=" lg:hidden flex justify-between items-center md:px-20  mx-auto px-3">
+            <div className=" lg:hidden flex justify-between items-center sm:px-20  mx-auto px-3">
 
                             <Image src={Location} alt="location"  />
 
@@ -92,7 +92,7 @@ const Navbar = () => {
                                 {/* 35 words */}
                     Vaishali Metro, Ghaziabad Uttar Prad... 
                             </address>
-                            <address className=" hidden md:block font-medium text-base  ">
+                            <address className=" hidden md:block px-2 font-medium text-base  ">
                                 {/* 75 words */}
                     Vaishali Metro, Ghaziabad Uttar Uttar Uttar Uttar Uttar Uttar Uttar Uttar Uttar  Prad...
                             </address>
