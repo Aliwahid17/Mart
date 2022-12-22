@@ -1,9 +1,9 @@
-// import front from '../public/home/homepage.png'
 import React from 'react'
-import Categories from '../components/home/Categories'
-import MidCarousal from '../components/home/MidCarousal'
-import TopImage from '../components/home/TopImage'
-import ProductCarousal from '../components/ProductCarousal'
+import Carousel from '../components/carousel/Carousel'
+import Categories from '../components/Categories'
+import MidCarousal from '../components/carousel/MidCarousal'
+import TopImage from '../components/TopImage'
+import ProductCarousel from '../components/carousel/ProductCarousel'
 
 
 
@@ -11,24 +11,18 @@ export default function Home() {
   return (
     <>
 
-      {/* <div className="my-4 flex justify-center  ">
-        <div className=" mx-3 container flex justify-center  ">
-          <main className='mx-1  my-1 md:mx-12 lg:mx-28  ' >
+      <div className=" w-full m-0 ">
+        <div className="container  mx-auto px-3 md:px-20 lg:px-44 xl:px-56 ">
+          <main className="flex flex-col items-center justify-center py-4">
             <TopImage />
-            <MidCarousal />
+            <Carousel  >
+              <MidCarousal />
+            </Carousel>
             <Categories />
-            </main>
-            </div>
-          </div> */}
-
-
-      <main className='my-4 mx-3 md:mx-14 lg:mx-52 ' >
-        <TopImage />
-        <MidCarousal />
-        <Categories />
-        <ProductCarousal />
-      </main>
-
+            <ProductCarousel />
+          </main>
+        </div>
+      </div>
 
     </>
 
