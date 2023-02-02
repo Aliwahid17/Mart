@@ -28,4 +28,13 @@
     .scroll {
         scrollbar-width: thin;
     }
+
+    .car-scroll {
+        scrollbar-width: none;
+    }
+
+    .brave-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
 }
