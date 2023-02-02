@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Carousel from './Carousel'
 import CarouselProduct from './CarouselProduct'
-import Category from '../../data/productCategory.json'
+import Category from '../../../../data/productCategory.json'
 
 const ProductCarousel = () => {
     return (

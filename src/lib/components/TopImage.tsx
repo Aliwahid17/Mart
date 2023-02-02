@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Top from '../public/test/up.jpg'
+import Top from '../../../public/test/up.jpg'
 
 const TopImage = () => {
 

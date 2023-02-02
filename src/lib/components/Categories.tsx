@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import Milk from "../public/test/milk.svg"
-import Data from '../data/data.json'
+import Milk from "../../../public/test/milk.svg"
+import Data from '../../../data/data.json'
 
 
 

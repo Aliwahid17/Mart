@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import image from '../../data/adImage.json'
+import image from '../../../../data/adImage.json'
 
 
 const MidCarousal = () => {

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import I from '../../public/test/amul.webp'
-import Item from '../../data/item.json'
+import I from '../../../../public/test/amul.webp'
+import Item from '../../../../data/item.json'
 
 const CarouselProduct = () => {
     return (
